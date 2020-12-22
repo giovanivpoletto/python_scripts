@@ -5,7 +5,7 @@ from time import sleep
 from os.path import basename
 import fnmatch
 
-def check_files(mes):
+def check_files(month):
     for file in file_list:
         if fnmatch.fnmatch(file, '*_2020'+month+'*.wav'): #string i was looking for in a huge files list
             shutil.copy2(path+'/'+file,dst+'/'+month) # I used copy2 instead of move, because i was scare to death to loose those files. =)
