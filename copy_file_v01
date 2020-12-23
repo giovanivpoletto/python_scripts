@@ -1,4 +1,4 @@
-
+#tested with 1.395.440 files in the same directory. Run for almost 24h.
 import shutil
 import os 
 from time import sleep
